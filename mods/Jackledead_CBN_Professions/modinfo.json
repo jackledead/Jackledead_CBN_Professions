@@ -1,0 +1,11 @@
+[
+    {
+      "type": "MOD_INFO",
+      "id": "jkl_cbn_prof",
+      "name": "Jackledead's CBN Professions",
+      "authors": [ "Jackledead" ],
+      "description": "Adds professions I wanted using vanilla Bright Nights items.",
+      "category": "items",
+      "dependencies": [ "bn" ]
+    }
+  ]

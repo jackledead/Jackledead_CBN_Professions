@@ -1,0 +1,96 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "jkl_holostrapsupp_ar15",
+    "entries": [
+      { "item": "ar15", "ammo-item": "556", "charges": 30, "contents-item": [ "holo_sight", "shoulder_strap", "suppressor" ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "jkl_loaded_glock19_dot",
+    "entries": [ { "item": "glock_19", "ammo-item": "9mm", "charges": 17, "contents-item": [ "red_dot_sight" ] } ]
+  },
+  {
+    "type": "profession",
+    "id": "jkl_wasteland_survivor",
+    "name": "Wasteland Survivor",
+    "description": "A seasoned and battle-hardened survivor, you've learned to adapt to the harsh conditions of the wasteland. With your trusty AR-15 and combat skills, you're ready to face any challenge that comes your way.",
+    "points": 8,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "cooking" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 3, "name": "driving" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "tank_top",
+          "pants_cargo",
+          "socks",
+          "boots_combat",
+          "gloves_tactical",
+          "sunglasses",
+          "knife_combat",
+          "legpouch_large",
+          "holster",
+          "lighter",
+          "bandages",
+          "caffeine"
+        ],
+        "entries": [
+          { "group": "jkl_holostrapsupp_ar15" },
+          { "group": "jkl_loaded_glock19_dot" },
+          { "item": "sheath", "contents-item": "knife_combat" }
+        ]
+      },
+      "male": { "items": [ "boxer_shorts" ] },
+      "female": { "items": [ "boy_shorts" ] },
+      "vehicle": "whillys_mb"
+    }
+  },
+  {
+    "type": "profession",
+    "id": "jkl_wasteland_doctor",
+    "name": "Wasteland Doctor",
+    "description": "A resourceful physician who utilizes pre-apocalypse knowledge and scavenged supplies to heal the sick and injured in the harsh wasteland.",
+    "points": 4,
+    "traits": [ "PROF_MED" ],
+    "skills": [ { "level": 3, "name": "firstaid" }, { "level": 2, "name": "survival" }, { "level": 2, "name": "gun" } ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "pants_cargo",
+          "longshirt",
+          "boots_combat",
+          "gloves_tactical",
+          "armor_riot",
+          "mask_gas",
+          "wristwatch",
+          "backpack",
+          "lighter",
+          "smart_phone",
+          "water_clean",
+          "antibiotics",
+          "aspirin"
+        ],
+        "entries": [
+          { "item": "glock_17", "ammo-item": "9mm", "charges": 17 },
+          { "item": "bandages", "charges": 10 },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
+      },
+      "male": { "items": [ "boxer_briefs" ] },
+      "female": { "items": [ "bra", "panties" ] }
+    }
+  }
+]
