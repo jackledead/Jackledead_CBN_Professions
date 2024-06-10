@@ -14,6 +14,54 @@
     "entries": [ { "item": "glock_19", "ammo-item": "9mm", "charges": 17, "contents-item": [ "red_dot_sight" ] } ]
   },
   {
+  "type": "profession",
+  "id": "bountyhunter",
+  "name": "Bounty Hunter",
+  "description": "You were on the trail of your last target when the Cataclysm struck, interrupting your hunt. Now, you must survive in this new hellscape while keeping an eye out for your elusive quarry.",
+  "points": 6,
+  "skills": [
+    { "level": 3, "name": "gun" },
+    { "level": 2, "name": "melee" },
+    { "level": 2, "name": "bashing" },
+    { "level": 2, "name": "survival" },
+    { "level": 1, "name": "driving" },
+    { "level": 1, "name": "dodge" }
+  ],
+  "items": {
+    "both": {
+      "items": [
+        "duster",
+        "pants",
+		"chaps_leather",
+        "boots_hiking",
+        "gloves_leather",
+        "hat_hunting",
+        "holster",
+		"leather_belt",
+        "wristwatch",
+        "canteen",
+        "jerky",
+        "lighter",
+        "rollmat",
+        "socks",
+		"backpack_leather",
+		"44_speedloader6"
+      ],
+      "entries": [
+        { "item": "m1918", "ammo-item": "3006", "charges": 30 },
+		{ "item": "m1918mag", "ammo-item": "3006", "charges": 10 },
+        { "item": "sw629", "ammo-item": "44fmj", "charges": 6 },
+        { "item": "44fmj", "charges": 36 },
+        { "item": "3006", "charges": 50 },
+        { "item": "knife_hunting", "container-item": "sheath" },
+        { "item": "baton" }
+      ]
+    },
+    "male": [ "boxer_shorts", "crackers" ],
+    "female": [ "bra", "boy_shorts", "hairpin" ]
+  }
+},
+  {
     "type": "profession",
     "id": "jkl_wasteland_survivor",
     "name": "Wasteland Survivor",
