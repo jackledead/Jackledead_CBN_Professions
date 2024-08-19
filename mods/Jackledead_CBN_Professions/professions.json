@@ -14,8 +14,49 @@
     "entries": [ { "item": "glock_19", "ammo-item": "9mm", "charges": 17, "contents-item": [ "red_dot_sight" ] } ]
   },
   {
+    "type": "profession",
+    "id": "special_operative",
+    "name": "Special Operative",
+    "description": "An elite soldier trained for high-risk operations, you're equipped with advanced tactical gear and weaponry to handle the most dangerous situations.",
+    "points": 8,
+    "skills": [
+        {"level": 4, "name": "gun"},
+        {"level": 4, "name": "melee"},
+        {"level": 3, "name": "dodge"},
+        {"level": 3, "name": "swimming"},
+        {"level": 2, "name": "firstaid"}
+    ],
+    "items": {
+        "both": {
+            "items": [
+                "socks",
+                "undershirt",
+                "sports_bra",
+                "nomex_socks",
+                "bunker_pants",
+                "gloves_tactical",
+                "boots_bunker",
+                "mask_gas",
+                "tac_fullhelmet",
+                "tacves t",
+                "police_belt"
+            ],
+            "entries": [
+                { "group": "charged_two_way_radio" },
+				{"item": "c4", "charges": 4},
+                {"item": "grenadebandolier", "contents-item": ["grenade", "grenade_emp"]},
+                {"item": "modularvestceramic", "contents-group": "army_mags_m4"},
+                {"item": "m4a1", "ammo-item": "556", "charges": 30, "contents-item": ["holo_sight", "suppressor"]},
+                {"item": "sheath", "contents-item": "knife_combat"}
+            ]
+        },
+        "male": ["briefs"],
+        "female": ["bra", "panties"]
+    }
+},
+  {
   "type": "profession",
-  "id": "bountyhunter",
+  "id": "jkl_bountyhunter",
   "name": "Bounty Hunter",
   "description": "You were on the trail of your last target when the Cataclysm struck, interrupting your hunt. Now, you must survive in this new hellscape while keeping an eye out for your elusive quarry.",
   "points": 6,
@@ -78,6 +119,7 @@
       { "level": 1, "name": "mechanics" },
       { "level": 3, "name": "driving" }
     ],
+	"vehicle": "whillys_mb",
     "items": {
       "both": {
         "items": [
@@ -101,8 +143,7 @@
         ]
       },
       "male": { "items": [ "boxer_shorts" ] },
-      "female": { "items": [ "boy_shorts" ] },
-      "vehicle": "whillys_mb"
+      "female": { "items": [ "boy_shorts" ] }
     }
   },
   {
